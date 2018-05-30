@@ -22,5 +22,7 @@ print "Sales Report",
             Print  the customer number, name, sales amount, sales tax and the total amount due.
         
     ENDDO
-    Read sale record
+    
 END
+
+simpl

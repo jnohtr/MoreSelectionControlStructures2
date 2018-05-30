@@ -1,0 +1,19 @@
+input : test record
+output : grade report
+process :
+get the student’s number, name, test score (out of 50)
+
+if score>90 and score<100
+	then a
+else if score>80 and score<90
+	then b
+else if score>70 and score<80
+	then c
+else if score>60 and score<70
+	then d
+else f 
+ow god
+
+display print the student’s number, name, test score (out of 50) and letter grade
+
+coool great
