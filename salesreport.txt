@@ -1,0 +1,26 @@
+Produce a Sales Report 
+
+input: sale record - customer's name, name, similar, sale amount, tax amount code
+output: sale report
+process
+:
+
+print "Sales Report", 
+
+    DOWHILE morerecords exist
+   Read sale record
+        
+	if code=0
+	 then no tax, exempt
+	elif code=1
+	 then 3% tax
+	ellif code=2
+	 then 5%
+
+	tax = amount * tax
+	sale amount = amount + tax
+            Print  the customer number, name, sales amount, sales tax and the total amount due.
+        
+    ENDDO
+    Read sale record
+END
