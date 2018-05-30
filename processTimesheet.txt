@@ -1,1 +1,17 @@
 "dowhile"
+
+Print_Hours_Billed_To_Project
+Print "Employee Hours Billed to Project" heading
+    
+    DOWHILE morerecords exist
+   Read timesheet record
+        IF timesheet_status = 'FT' THEN
+            Print EmployeeID, Department, name, Billing Rate, Hours Worked
+        ENDIF
+    ENDDO
+    Read timesheet record
+END
+
+Program Output: pr
+
+
