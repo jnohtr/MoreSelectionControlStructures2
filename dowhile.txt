@@ -1,0 +1,20 @@
+Can't Get Enough of Program Design 
+
+1. input: 15 measurement
+output : 15 measurement
+processing: asif
+
+diwhile  there's no measurement
+enter measure
+convert mesure
+display measure
+endDo
+
+2. repeat ...read measure
+until there are 15 measurement
+
+3.for 15
+read measure
+ENDFOR
+
+
